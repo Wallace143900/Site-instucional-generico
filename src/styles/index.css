@@ -1,0 +1,411 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    width: 108rem;
+    max-width: 100%;
+    padding: 6.25rem;
+    background-color: var(--cor-escurao);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 2px solid var(--cor-azulzinho);
+}
+
+.div__header {
+    width: 108rem;
+    max-width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    align-items: center;
+}
+
+.button__header {
+    background-color: var(--cor-escurao);
+    border: 1px solid var(--cor-branquinho);
+    color: var(--cor-branquinho);
+    width: 13.875rem;
+    height: 3.98rem;
+    max-width: 100%;
+    padding: 1.25rem 2rem;
+
+    cursor: pointer;
+}
+
+.button__header:hover {
+    text-align: center;
+    background-color: var(--cor-branquinho);
+    font-size: 0.855rem;
+    transition: 0.3s;
+    color: var(--cor-azulao);
+}¨
+
+.main__part{
+    width: 108rem;
+    max-width: 100%;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first__section {
+    width: 108rem;
+    max-width: 100%;
+    padding-top: 16rem;
+    padding-bottom: 14rem;
+    background: var(--cor-escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.div__section--first{
+    width: 108rem;
+    max-width: 100%;
+    background-color: var(--cor-escuro);
+}
+
+.first__section h1 {
+    font-size: var(--font-titleFirst);
+    color: var(--cor-branco);
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+
+}
+
+span{
+    color: var(--cor-azulzinho);
+}
+
+.first__section p {
+    font-size: var(--font-paragraph);
+    color: var(--cor-cinza);
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button__section--first {
+    width: 8.875rem;
+    height: 3.75rem;
+    background-color: var(--cor-azulzinho);
+    color: var(--cor-branquinho);
+    border: 1px solid var(--cor-azulzinho);
+    margin-top: 2.75rem;
+}
+
+.secund__section{
+    width: 108rem;
+    max-width: 100%;
+}
+
+.div__section--secund {
+    max-width: 100vw;
+    /*height: 17.75rem;*/
+    background-color: var(--cor-escurao);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.title__section {
+    font-size: var(--font-titleSecund);
+    color: var(--cor-branco);
+}
+
+.secund__section p {
+    color: var(--cor-cinzinha);
+    font-size: var(--font-paragraph);
+    width: 35%;
+    height: 7.75rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 3.75rem;
+}
+
+.third__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 108rem;
+    max-width: 100%;
+    /*height: 38.75rem;*/
+    background-color: var(--cor-escuro);
+    /*padding: 10%;*/
+}
+
+.div {
+    margin-top: 8rem;
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+    gap: 8rem;
+}
+
+.div__left {
+    position: sticky;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4.6875rem;
+}
+
+.div__section--third h2{
+    margin-bottom: 2.5rem;
+    font-size: var(--font-titleSecund);
+}
+
+.div__section--third p {
+    width: 60%;
+    color: var(--cor-cinza);
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: var(--font-paragraph);
+}
+
+.button__section--third {
+    background-color: var(--cor-azulzinho);
+    border: 1px solid var(--cor-azulzinho);
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    color: var(--cor-branquinho);
+    cursor: pointer;
+}
+
+.button__section--third:hover {
+    background-color: var(--cor-branquinho);
+    border: 2px solid var(--cor-azulao);
+    font-size: 0.875rem;
+    transition: 0.3s;
+    color: var(--cor-escurao);
+}
+
+.right__section--third {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right__section--third , .li__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right__section--third .title {
+    text-align: center;
+    color: var(--cor-branco);
+    font-size: var(--font-titleThird);
+    margin-bottom: 1.875rem;
+    
+}
+
+.right__section--third p {
+    color: var(--cor-cinza);
+    width: 70%;
+    margin-bottom: 3.75rem;
+    font-size: var(--font-paragraph);
+}
+
+.fourth__section {
+    width: 108rem;
+    max-width: 100%;
+    /*height: 59.375rem;*/
+    background-color: var(--cor-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.div__global {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /*padding: 3.75rem 0;*/
+}
+
+.div1 {
+    width: 100%;
+}
+
+.div__section--fourth {
+    position: sticky;
+    top: 12rem;
+    width:50%;
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;;
+    background-color: var(--cor-azulzinho);
+}
+
+.div1 p {
+    margin-top: 2rem;
+    color: var(--cor-branquinho);
+    font-size: var(--font-paragraph);
+}
+
+.div1 .title__section {
+    font-size: var(--font-titleSecund);
+    text-align: left;
+}
+
+.li__section--left {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    /*height: 11.1875rem;*/
+}
+
+.div__left--secund {
+    width: 100%;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 0.875rem;
+    color: var(--cor-cinza);
+    font-size: var(--font-paragraph);
+    
+}
+
+.left__section , .div__left--secund {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paragraph2{
+    width: 70%;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    color: var(--cor-cinzinha);
+    font-size: var(--font-paragraph);
+}
+
+.div__left--secund {
+    display: flex;
+
+}
+
+.div__left--secund .title{
+    font-size: var(--font-titleThird);
+    color: var(--cor-branco);
+}
+
+.footer {
+    background-color: var(--cor-escurao);
+    width: 108rem;
+    max-width: 100%;
+    height: 8.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog {
+    padding-inline: 1.75rem;
+    width: 27.1875rem;
+    height: 21.875rem;
+    background-color: var(--cor-escuro);
+    color: var(--cor-branquinho);
+    border: 2px solid var(--cor-azulzinho);
+}
+
+.block__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.875rem;
+}
+
+.modal__h3{
+    width: 8.4375rem;
+    height: 2.8125rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.close {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: var(--cor-escurinho);
+    border: 1px solid var(--cor-escurinho);
+    border-radius: 3px;
+    color: var(--cor-cinza);
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
+
+.close:hover {
+    background-color: var(--cor-cinzinha);
+    color: var(--cor-azulao);
+    font-size: 0.875rem;
+    transition: 0.3s;
+}
+
+.modal__paragraph {
+    width: 26.875rem;
+    height: 3.4375rem;
+    text-align: left;
+    margin-top: 1.9375rem;
+    color: var(--cor-cinza);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.modal__input {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.9375rem;
+}
+
+.modal__input input {
+    width: 25.625rem;
+    height: 2.9375rem;
+    background-color: var(--cor-escurao);
+    border: 1px solid var(--cor-escurao);
+    color: var(--cor-cinza);
+    padding-inline: 0.625rem;
+
+}
+
+.enviar__email {
+    width: 26.875rem;
+    height: 3.125rem;
+    margin-top: 1.9375rem;
+    background-color: var(--cor-azulzinho);
+    border: 1px solid var(--cor-azulzinho);
+    color: var(--cor-branquinho);
+}
+
+.enviar__email:hover {
+    width: 28.125rem;
+    background-color: var(--cor-azulzinho);
+    color: var(--cor-branquinho);
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+::backdrop{
+    background-color:rgba(0, 0, 0, 0.74);
+    backdrop-filter: blur(4px);
+}

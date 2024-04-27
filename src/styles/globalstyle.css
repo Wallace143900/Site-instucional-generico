@@ -1,0 +1,262 @@
+@import url(../styles/reset.css); 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;800&display=swap');
+
+:root {
+    --cor-branquinho: #F8F9FA;
+    --cor-azulao: #364FC7;
+    --cor-azulzinho: #4C6EF5;
+    --cor-branco: #EDF2FF;
+    --cor-cinzinha: #CED4DA;
+    --cor-cinza: #ADB5BD;
+    --cor-escurao: #191C1F;
+    --cor-escuro: #212529;
+    --cor-escurinho: #343A40;
+
+    --font-titleFirst: clamp(2.75rem, 2.395rem + 1.336vw, 3.25rem);
+    --font-titleSecund: clamp(1.9rem, 1.474rem + 1.603vw, 2.5rem);
+    --font-titleThird: clamp(1.3rem, 0.981rem + 1.202vw, 1.75rem);
+    --font-paragraph: clamp(1rem, 0.823rem + 0.668vw, 1.25rem);
+
+    --font-primary: "Inter", sans-serif;
+}
+
+body{
+    max-width: 108rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    body {
+        width: 100vw;
+    }
+
+    header{
+        border-bottom: 2px solid var(--cor-azulzinho);
+        padding-inline: 20px;
+    }
+    
+    .button__header{
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    .div__section--first h1{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .secund__section{
+        text-align: center;
+    }
+
+    .div__section--secund{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .div__section--secund p {
+        margin-left: 24px;
+    }
+
+    .div__section--third p{
+        width: 90%;
+        text-align: center;
+    }
+
+    .title__section{
+        margin-top: 50px;
+    }
+
+    .li__section p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .third__section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    .div__left{
+        width: 100%;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .li__section p {
+        width: 90%;
+    }
+    
+    .div__section--third {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .secund__section p{
+        margin-top: 0;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .fourth__section {
+        width: 100vw;
+    }
+    
+    .div__global{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div__section--fourth {
+        width: 92%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left__section{
+        width: 100%;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li__section--left{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li__section--left .div__left--secund {
+        gap: 2rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .paragraph2{
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) {
+    dialog{
+        width: 14.0625rem;
+    }
+
+    .modal__paragraph{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .modal__input input {
+        width: 13.125rem;
+        margin-top: 20px;
+    }
+
+    .enviar__email {
+        width: 220px;
+    }
+}
+
+@media (min-width: 375px) {
+    dialog{
+        width: 17.8125rem;
+    }
+
+    .modal__paragraph{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .modal__input input {
+        width: 15.5rem;
+        margin-top: 20px;
+    }
+
+    .enviar__email {
+        width: 16.5rem;
+    }
+}
+
+@media (min-width: 425px) {
+    dialog{
+        width: 20.8125rem;
+    }
+
+    .modal__paragraph{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .modal__input input {
+        width: 18.5rem;
+        margin-top: 20px;
+    }
+
+    .enviar__email {
+        width: 19.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .div__section--secund p {
+        margin-bottom: 2.5rem;
+        text-align: left;
+    }
+
+    .div__section--fourth{
+        width: 60%;
+        height: 25%;
+    }
+
+    dialog{
+        width: 27.1875rem;
+        height: 21.875rem;
+    }
+
+    .modal__input input{
+        width: 25.625rem;
+        height: 2.9375rem;
+    }
+
+    .enviar__email {
+        width: 26.875rem;
+        height: 3.125rem;
+    }
+
+}
